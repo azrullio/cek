@@ -22,14 +22,16 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
+            outline: 1px solid red;
         }
+        
     </style>
 </head>
 <body class="bg-white text-gray-800 ">
 
     <!-- Header -->
 <header>
-  <div class="navbar">
+  <div class="navbar max-w-screen-xl mx-auto px-4">
     <h1>Masjid Baitut Taibin</h1>
     <nav class="nav-links">
       <a href="index.html">tentang</a>
@@ -40,7 +42,7 @@
     </nav>
     <button id="menu-btn">☰</button>
   </div>
-  <div id="mobile-menu">
+  <div id="mobile-menu" class="hidden flex flex-col bg-white absolute top-full left-0 w-full z-40">
     <a href="index.html">tentang</a>
     <a href="profil.html">Profil</a>
     <a href="acara.html">Event</a>
